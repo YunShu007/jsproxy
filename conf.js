@@ -14,7 +14,7 @@ jsproxy_config({
   node_map: {
     
     'mysite': {
-      label: '当前站点',
+      label: '私人使用',
       lines: {
         'www.yunshu007.workers.dev': 1,
       }
