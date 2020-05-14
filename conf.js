@@ -16,7 +16,8 @@ jsproxy_config({
     'mysite': {
       label: '私人使用',
       lines: {
-        'www.yunshu007.workers.dev': 1,
+         [location.host]: 1,
+        //'www.yunshu007.workers.dev': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
