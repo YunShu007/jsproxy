@@ -16,7 +16,6 @@ jsproxy_config({
       label: '当前站点',
       lines: {
         [location.host]: 1,
-        'dry-violet-c900.yunshu007.workers.dev': 1,
         'calm-truth-2e2f.yunshu007.workers.dev/': 1,
       }
     },
