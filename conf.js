@@ -16,6 +16,8 @@ jsproxy_config({
       label: '当前站点',
       lines: {
         [location.host]: 1,
+        'dry-violet-c900.yunshu007.workers.dev': 1,
+        'calm-truth-2e2f.yunshu007.workers.dev/': 1,
       }
     },
     // 该节点用于加载大体积的静态资源
@@ -23,10 +25,9 @@ jsproxy_config({
       label: '',
       hidden: true,
       lines: {
-       // 'weathered-dust-0ec6.yunshu007.workers.dev': 1,
+       'weathered-dust-0ec6.yunshu007.workers.dev': 1,
         //'www.yunshu007.workers.dev': 1,
-        //'dry-violet-c900.yunshu007.workers.dev': 1,
-        //'calm-truth-2e2f.yunshu007.workers.dev/': 1,
+        
       }
     }
   },
